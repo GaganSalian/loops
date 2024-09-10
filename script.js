@@ -6,7 +6,7 @@ if (isNaN(number)) {
 } else if (number == 1) {
     document.write("1 is neither a prime nor a composite number");
 } else if (number > 1) {
-    for (var i = 2; i <= number / 2; i++) {
+    for (var i = 2; i <= number ; i++) {
         if (number % i == 0) {
             isPrime = false;
             break;
